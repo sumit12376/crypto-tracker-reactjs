@@ -64,10 +64,10 @@ const Card = ({ item, checker }) => {
       </h2>
       <div className="flex flex-col gap-1 mt-2 text-gray-400">
         <h3 className="text-sm">
-          Market Cap: ${checker === "top10" ? item.data.market_cap.toLocaleString() : item.market_cap.toLocaleString()}
+          Market Cap: ${checker === "top10" ? item.data.market_cap : item.market_cap}
         </h3>
         <h3 className="text-sm">
-          Total Volume: ${checker === "top10" ? item.data.total_volume.toLocaleString() : item.total_volume.toLocaleString()}
+          Total Volume: ${checker === "top10" ? item.data.total_volume : item.total_volume}
         </h3>
       </div>
     </div>

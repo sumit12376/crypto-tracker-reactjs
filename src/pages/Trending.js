@@ -15,7 +15,7 @@ const Trending = () => {
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        setFilteredData(data); // Set initial filtered data
+        setFilteredData(data); 
       })
       .catch((err) => console.log(err));
   }, []);

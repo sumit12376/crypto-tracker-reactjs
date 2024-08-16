@@ -20,7 +20,7 @@ function Navbar() {
               : "p-4 hover:bg-gray-600 rounded"
           }
         >
-          Top10
+          Top15
         </NavLink>
         <NavLink
           to={"/trending"}

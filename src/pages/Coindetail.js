@@ -10,7 +10,7 @@ function Coindetail({ data }) {
   }
 
   return (
-    <div className="w-full mx-auto p-8 bg-white shadow-2xl rounded-xl">
+    <div className=" max-w-5xl mx-auto p-8 bg-white shadow-2xl rounded-xl">
       <div className="flex items-center mb-6">
         <img 
           src={data.image.large} 
@@ -19,8 +19,10 @@ function Coindetail({ data }) {
         />
         <h1 className="text-4xl font-extrabold text-gray-900">{data.name}</h1>
       </div>
-      <p className="text-lg text-gray-700 mb-4 break-words">{data.description.en}</p>
-
+      <p 
+        className="text-lg text-gray-700 mb-4 break-words" 
+        dangerouslySetInnerHTML={{ __html: data.description.en }}
+      ></p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
         <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
           <p className="text-xl font-semibold text-gray-800">Symbol:</p>
