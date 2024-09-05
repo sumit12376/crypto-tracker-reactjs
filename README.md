@@ -1,6 +1,6 @@
-# CryptoTrackr
+# CryptoTracker
 
-CryptoTrackr is a modern cryptocurrency tracking application built with React and styled using Tailwind CSS. The app allows users to view trending cryptocurrencies, track their watchlist, and access detailed information about specific coins.
+CryptoTracker is a modern cryptocurrency tracking application built with React and styled using Tailwind CSS. The app allows users to view trending cryptocurrencies, track their watchlist, and access detailed information about specific coins.
 
 ## Features
 
